@@ -130,7 +130,7 @@ axios(api)
         //Displays Pokemon's information
         console.log('Name: ' + name);
         console.log('Pokedex Number: #' + id);
-        //Displays both types if Pokemon has a second type other just the one
+        //Displays both types if Pokemon has two, otherwise just the one
         if(type2 != ''){
           console.log('Type: ' + chalk.hex(typeColor)(type) + ' ' + chalk.hex(typeColor2)(type2));
         }else{
