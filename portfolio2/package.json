@@ -1,5 +1,5 @@
 {
-  "name": "lab11",
+  "name": "portfolio2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "type": "module",
   "dependencies": {
     "chalk": "^4.1.1",
-    "mongodb": "^3.6.6"
+    "mongodb": "^3.6.6",
+    "prompt-sync": "^4.2.0"
   }
 }
